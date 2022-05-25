@@ -1,6 +1,6 @@
 {
   "name": "@troninformatica/node-tsserver",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Servidor Express.js simples e minimalista feito em Typescript e uma coleção de decorators.",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
