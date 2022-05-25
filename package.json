@@ -1,7 +1,7 @@
 {
-  "name": "@danilotorchio/node-ts-server",
-  "version": "1.0.6",
-  "description": "Simple and minimalist Express.js server made with Typescript and a collection of decorators.",
+  "name": "@troninformatica/node-tsserver",
+  "version": "1.0.0",
+  "description": "Servidor Express.js simples e minimalista feito em Typescript e uma coleção de decorators.",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "engines": {
@@ -15,7 +15,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/danilotorchio/node-ts-server.git"
+    "url": "git+https://github.com/TronInformatica/node-tsserver.git"
   },
   "nyc": {
     "extension": [
@@ -35,7 +35,7 @@
     "Typescript",
     "Decorators"
   ],
-  "author": "Danilo Torchio <danilotorchio@gmail.com>",
+  "author": "Tron Informatica <webmastertron@tron.com.br>",
   "license": "MIT",
   "devDependencies": {
     "@types/body-parser": "^1.17.0",
@@ -67,5 +67,9 @@
     "morgan": "^1.9.1",
     "reflect-metadata": "^0.1.13",
     "ts-httpexceptions": "^4.1.0"
-  }
+  },
+  "bugs": {
+    "url": "https://github.com/troninformatica/node-tsserver/issues"
+  },
+  "homepage": "https://github.com/troninformatica/node-tsserver#readme"
 }
