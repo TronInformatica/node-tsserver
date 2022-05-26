@@ -11,7 +11,8 @@
     "start": "ts-node ./src/index.ts",
     "dev": "npx cross-env NODE_ENV=development nodemon",
     "test": "npx nyc mocha --require ts-node/register src/**/*.spec.ts",
-    "build": "npm test && rm -rf ./dist && tsc --project ./tsconfig.json"
+    "build": "rm -rf ./dist && tsc --project ./tsconfig.json",
+    "build-dev": "npm test && rm -rf ./dist && tsc --project ./tsconfig.json"
   },
   "repository": {
     "type": "git",
